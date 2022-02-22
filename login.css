@@ -1,0 +1,19 @@
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container{
+    display: flex;
+    flex-grow: 1;
+}
+
+.main-content{
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 930px;
+    flex-grow: 1;
+}
